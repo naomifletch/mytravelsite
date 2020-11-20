@@ -7,8 +7,7 @@
 </head>
 <body>
     <header>
-        <img src="../images/maldives.jpg" alt=""
-       
+        <img src="../images/maldives.jpg" alt="Torqoise Waters"
         <br/>
         <nav>
             <a href="index.html">Home</a>
@@ -22,10 +21,48 @@
             <blockquote>"life is either a daring adventure or nothing at all"</blockquote>
         </section>
     </header>
-    <main>
-        <!---- will add main content tomorrow 20/11/2020 -->
-    </main>
+    <main class=contact>
+        <article>
+            <form>
+               <label for="fname">First Name</label>
+               <input type="text" name="fname" id="fname"> 
+               <br />
 
+               <label for="sname">Surname</label>
+               <input type="text" name="sname" id="fname">
+               <br />
+
+               <label for="country">Country</label>
+               <select name="country">
+                   <option value="AUS">Australia</option>
+                   <option value="CAN">Canada</option>
+                   <option value="JPN" selected>Japan</option>
+                </select>
+               <br />
+
+               <label for="email">Email</label>
+               <input type="email" name="email" id="email">
+               <br />
+
+               <label for ="how">How did you hear about me?</label>
+               <input type="radio" id="website" name="how" checked>Website
+               <input type="radio" id="facebook" name="how"/>Facebook
+               <input type="radio" id="se" name="how"/>Search Engine
+               <input type="radio" id="friend" name="how"/>Friend
+               <br />
+
+               <label for="comment">Comments</label>
+                 <textarea 
+                 id="comment" 
+                 name="comment" 
+                 style="height: 200px"
+                 ></textarea>
+                 <br />
+                 <input type="submit" value="submit" />
+               </form>
+             </article>
+          </main>
+        
     <footer>
         Copyright 2020. All rights reserved. Website created by Naomi
     </footer>
